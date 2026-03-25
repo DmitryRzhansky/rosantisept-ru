@@ -4710,6 +4710,499 @@ div.rpt-sc-hidden-row--visible {
     transition: none;
   }
 }
+
+/* Блок ТЗ на переработку (только отчёт rosantisept.ru) */
+#rosantisept-tz {
+  scroll-margin-top: 100px;
+}
+
+.rpt-tz {
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--ink2);
+}
+
+.rpt-tz-note {
+  font-size: 13px;
+  color: var(--ink3);
+  margin: 0 0 20px;
+  padding: 14px 16px;
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  border-left: 3px solid var(--neon);
+}
+
+.rpt-tz-hero {
+  text-align: center;
+  padding: 28px 20px 32px;
+  margin-bottom: 28px;
+  background: linear-gradient(165deg, rgba(30, 107, 255, 0.12), rgba(255, 107, 0, 0.06));
+  border: 1px solid var(--rule);
+  border-radius: 14px;
+}
+
+.rpt-tz-hero__kicker {
+  font-family: var(--ff-u);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 10px;
+}
+
+.rpt-tz-hero__h {
+  font-family: var(--ff-s);
+  font-weight: 700;
+  font-size: clamp(20px, 3.2vw, 28px);
+  color: var(--ink);
+  margin: 0 0 8px;
+  line-height: 1.2;
+}
+
+.rpt-tz-hero__sub {
+  font-size: 15px;
+  color: var(--ink2);
+  margin: 0;
+}
+
+.rpt-tz-hr {
+  border: none;
+  height: 1px;
+  background: var(--rule);
+  margin: 28px 0;
+}
+
+.rpt-tz-section {
+  margin-bottom: 32px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid var(--rule);
+}
+
+.rpt-tz-section:last-of-type {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.rpt-tz-h2 {
+  font-family: var(--ff-h);
+  font-weight: 800;
+  font-size: clamp(16px, 2vw, 19px);
+  color: var(--ink);
+  margin: 0 0 16px;
+  letter-spacing: -0.02em;
+}
+
+.rpt-tz-h3 {
+  font-family: var(--ff-h);
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--ink);
+  margin: 20px 0 10px;
+}
+
+.rpt-tz-p {
+  margin: 0 0 14px;
+}
+
+.rpt-tz-p:last-child {
+  margin-bottom: 0;
+}
+
+.rpt-tz-strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.rpt-tz-callout {
+  padding: 18px 20px;
+  border-radius: 12px;
+  border: 1px solid var(--rule);
+  background: var(--surface);
+  margin-top: 16px;
+  border-left: 4px solid var(--accent);
+}
+
+.rpt-tz-scores {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.rpt-tz-score {
+  padding: 18px;
+  border-radius: 12px;
+  border: 1px solid var(--rule);
+  background: var(--surface-2);
+}
+
+.rpt-tz-score__label {
+  font-family: var(--ff-h);
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--accent);
+  margin-bottom: 8px;
+}
+
+.rpt-tz-score .rpt-tz-p {
+  margin-bottom: 0;
+}
+
+.rpt-tz-ul {
+  margin: 0 0 14px;
+  padding-left: 1.25rem;
+}
+
+.rpt-tz-ul li {
+  margin-bottom: 8px;
+}
+
+.rpt-tz-fw {
+  margin-bottom: 18px;
+  padding: 18px 18px 16px;
+  border-radius: 12px;
+  border: 1px solid var(--rule);
+  background: var(--surface);
+}
+
+.rpt-tz-fw:last-child {
+  margin-bottom: 0;
+}
+
+.rpt-tz-fw--p1 {
+  border-left: 4px solid var(--red);
+}
+
+.rpt-tz-fw--p2 {
+  border-left: 4px solid var(--yellow);
+}
+
+.rpt-tz-fw__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.rpt-tz-fw__badge {
+  font-family: var(--ff-h);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  padding: 4px 10px;
+  border-radius: 6px;
+  background: rgba(255, 77, 61, 0.2);
+  color: #ffb4ad;
+}
+
+.rpt-tz-fw--p2 .rpt-tz-fw__badge {
+  background: rgba(245, 158, 11, 0.2);
+  color: #fcd34d;
+}
+
+.rpt-tz-fw__title {
+  font-family: var(--ff-h);
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--ink);
+  margin: 0;
+  flex: 1 1 auto;
+}
+
+.rpt-tz-fw__dl {
+  margin: 0;
+  display: grid;
+  gap: 10px 16px;
+}
+
+.rpt-tz-fw__dl dt {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ink3);
+  margin: 0;
+}
+
+.rpt-tz-fw__dl dd {
+  margin: 0 0 0 0;
+  font-size: 13px;
+  color: var(--ink2);
+  line-height: 1.5;
+}
+
+.rpt-tz-fw__dl dd code,
+.rpt-tz-inline-code {
+  font-family: var(--ff-m);
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.25);
+  color: var(--green);
+}
+
+.rpt-tz-gapmap-title {
+  text-align: center;
+  font-family: var(--ff-h);
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--ink);
+  margin: 0 0 20px;
+  letter-spacing: 0.02em;
+}
+
+.rpt-tz-gapmap {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.rpt-tz-gapmap__block {
+  border-radius: 14px;
+  border: 1px solid var(--rule);
+  overflow: hidden;
+  background: var(--surface);
+}
+
+.rpt-tz-gapmap__badge {
+  font-family: var(--ff-h);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1.35;
+  padding: 12px 16px;
+  color: #fff;
+}
+
+.rpt-tz-gapmap__block--missing .rpt-tz-gapmap__badge {
+  background: linear-gradient(135deg, #7f1d1d, #991b1b);
+}
+
+.rpt-tz-gapmap__block--overused .rpt-tz-gapmap__badge {
+  background: linear-gradient(135deg, #7c2d12, #9a3412);
+}
+
+.rpt-tz-gapmap__block--untapped .rpt-tz-gapmap__badge {
+  background: linear-gradient(135deg, #14532d, #166534);
+}
+
+.rpt-tz-gapmap__list {
+  margin: 0;
+  padding: 14px 18px 16px 2rem;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--ink2);
+}
+
+.rpt-tz-gapmap__list li {
+  margin-bottom: 8px;
+}
+
+.rpt-tz-gapmap__list li:last-child {
+  margin-bottom: 0;
+}
+
+.rpt-tz-table-wrap {
+  overflow-x: auto;
+  margin: 16px 0;
+  border-radius: 10px;
+  border: 1px solid var(--rule);
+}
+
+.rpt-tz-table-wrap--lg {
+  margin: 20px 0 24px;
+  border-radius: 14px;
+}
+
+.rpt-tz-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+.rpt-tz-table--lg {
+  font-size: 14px;
+}
+
+.rpt-tz-table--lg th,
+.rpt-tz-table--lg td {
+  padding: 16px 18px;
+}
+
+.rpt-tz-table--lg th {
+  font-size: 11px;
+  padding: 14px 18px;
+}
+
+.rpt-tz-table th,
+.rpt-tz-table td {
+  padding: 10px 12px;
+  text-align: left;
+  border-bottom: 1px solid var(--rule);
+  vertical-align: top;
+}
+
+.rpt-tz-table th {
+  font-family: var(--ff-h);
+  font-weight: 700;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink3);
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.rpt-tz-table tr:last-child td {
+  border-bottom: none;
+}
+
+.rpt-tz-ol {
+  margin: 0;
+  padding-left: 1.2rem;
+  counter-reset: rpt-tz-li;
+}
+
+.rpt-tz-ol > li {
+  margin-bottom: 14px;
+  padding-left: 6px;
+}
+
+.rpt-tz-ol > li::marker {
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.rpt-tz-flow-heading {
+  text-align: center;
+  font-family: var(--ff-h);
+  font-weight: 800;
+  font-size: 15px;
+  color: var(--ink);
+  margin: 28px 0 18px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.rpt-tz-flow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 520px;
+  margin: 0 auto 8px;
+  gap: 0;
+}
+
+.rpt-tz-flow__card {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 14px 20px;
+  text-align: center;
+  font-family: var(--ff-h);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.4;
+  color: var(--ink);
+  background: var(--surface-2);
+  border: 1px solid var(--rule);
+  border-radius: 12px;
+}
+
+.rpt-tz-flow__arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 0;
+  color: var(--accent);
+  font-size: 18px;
+  line-height: 1;
+}
+
+.rpt-tz-pre {
+  margin: 14px 0;
+  padding: 16px 18px;
+  border-radius: 10px;
+  border: 1px solid var(--rule);
+  background: #0d1528;
+  overflow-x: auto;
+  font-family: var(--ff-m);
+  font-size: 11px;
+  line-height: 1.5;
+  color: #cbd5e1;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.rpt-tz-section--paste .rpt-tz-pre {
+  font-size: 14px;
+  line-height: 1.55;
+  padding: 20px 22px;
+}
+
+.rpt-tz-section--paste .rpt-tz-h3 {
+  font-size: 15px;
+}
+
+.rpt-tz-pre--html {
+  max-height: min(70vh, 520px);
+  overflow-y: auto;
+}
+
+.rpt-tz-caption {
+  font-size: 12px;
+  color: var(--ink3);
+  font-style: italic;
+  margin: 8px 0 0;
+}
+
+.rpt-tz-summary-final {
+  margin-top: 24px;
+  padding: 20px;
+  border-radius: 12px;
+  background: rgba(52, 211, 153, 0.08);
+  border: 1px solid rgba(52, 211, 153, 0.25);
+  font-size: 14px;
+  color: var(--ink2);
+  line-height: 1.55;
+}
+
+.rpt-tz-summary-final strong {
+  color: var(--green);
+}
+
+@media (max-width: 640px) {
+  .rpt-tz-scores {
+    grid-template-columns: 1fr;
+  }
+
+  .rpt-tz-table {
+    font-size: 11px;
+  }
+
+  .rpt-tz-table th,
+  .rpt-tz-table td {
+    padding: 8px 10px;
+  }
+
+  .rpt-tz-table--lg {
+    font-size: 13px;
+  }
+
+  .rpt-tz-table--lg th,
+  .rpt-tz-table--lg td {
+    padding: 12px 14px;
+  }
+
+  .rpt-tz-section--paste .rpt-tz-pre {
+    font-size: 13px;
+    padding: 16px 14px;
+  }
+}
 </style>
 </head>
 <body>
@@ -4762,6 +5255,7 @@ div.rpt-sc-hidden-row--visible {
     
     
     <a href="#page-examples" class="report-nav-link" data-nav><i class="fa-solid fa-table-columns"></i> Примеры страниц</a>
+    <a href="#rosantisept-tz" class="report-nav-link" data-nav><i class="fa-solid fa-file-contract"></i> ТЗ на переработку</a>
     
   </div>
 </nav>
@@ -19321,6 +19815,466 @@ div.rpt-sc-hidden-row--visible {
   </div>
 </div>
   </div>
+  
+<div class="report-section" id="rosantisept-tz">
+  <div class="section-hdr">
+    <span class="section-num">08</span>
+    <h2 class="section-title">Техническое задание на переработку сайта</h2>
+  </div>
+
+  <div class="rpt-tz">
+
+    <div class="rpt-tz-hero">
+      <p class="rpt-tz-hero__kicker">SEO Content Audit</p>
+      <h3 class="rpt-tz-hero__h">rosantisept.ru</h3>
+      <p class="rpt-tz-hero__sub">Санитарная обработка / Дезинсекция / Москва и МО</p>
+    </div>
+
+    <section class="rpt-tz-section" aria-labelledby="rpt-tz-s1">
+      <h3 class="rpt-tz-h2" id="rpt-tz-s1">1. Общий вывод по сайту</h3>
+      <div class="rpt-tz-callout">
+        <p class="rpt-tz-p">Страница ничем не отличается от конкурентов — её можно заменить любым из десятков аналогичных московских лендингов без потери контентной ценности для пользователя.</p>
+        <p class="rpt-tz-p">Критическая системная проблема: сайт таргетирует запрос «<strong class="rpt-tz-strong">санитарная обработка в Москве</strong>», но нигде на странице это словосочетание не появляется — ни в Title, ни в H1, ни в теле. Title и Description жёстко настроены на «<strong class="rpt-tz-strong">дезинсекцию</strong>» — это лишь треть семантического кластера.</p>
+        <p class="rpt-tz-p">Вторая структурная катастрофа — <strong class="rpt-tz-strong">FAQ-блок физически не рендерится в серверном HTML</strong>: 6 вопросов без ответов, всё скрыто за JS-аккордеоном. Краулер читает только заголовки вопросов.</p>
+        <p class="rpt-tz-p">Третья проблема — <strong class="rpt-tz-strong">ОГРНИП 322723200014584 (префикс 3227 = Тюменская область)</strong> и виджет Яндекс.Карт с подписью «Тобольск» прямо на странице отзывов: Яндекс видит бизнес из Тобольска, претендующий на ранжирование в Москве.</p>
+        <p class="rpt-tz-p">Переписывание существующей страницы целесообразно — структура Next.js адекватна, видео-превью и виджеты отзывов Yandex Maps/Avito уже есть. Контентный уровень можно поднять без смены CMS.</p>
+      </div>
+    </section>
+
+    <section class="rpt-tz-section" aria-labelledby="rpt-tz-s2">
+      <h3 class="rpt-tz-h2" id="rpt-tz-s2">2. Оценка страницы</h3>
+      <div class="rpt-tz-scores">
+        <div class="rpt-tz-score">
+          <div class="rpt-tz-score__label">Степень шаблонности</div>
+          <p class="rpt-tz-p"><strong class="rpt-tz-strong">Степень шаблонности контента: 80/100</strong> — страница клонирует SERP-консенсус почти полностью. Заголовки и тексты на странице заняли 80% от максимального балла перекрытия, данных ноль.</p>
+        </div>
+        <div class="rpt-tz-score">
+          <div class="rpt-tz-score__label">Полезность и уникальность</div>
+          <p class="rpt-tz-p"><strong class="rpt-tz-strong">Полезность и уникальность информации: 18/100</strong> — критически низкий. Страница не добавляет ни одной сущности, цифры или угла, которых нет у конкурентов. Entity gain = 1/20 (ни одной проприетарной сущности), Data gain = 1/20 (нет ни одной своей цифры).</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="rpt-tz-section" aria-labelledby="rpt-tz-s3">
+      <h3 class="rpt-tz-h2" id="rpt-tz-s3">3. Что у всех есть в ТОПЕ</h3>
+      <p class="rpt-tz-p"><strong class="rpt-tz-strong">Что у всех одинаково:</strong><br>У топа Москвы (gorcenterdez.ru, sanepidem.ru, geradez.ru, dezfox.ru, dezinfekciya-san.ru, dezinfekciya-corp.ru) стандартизированы следующие элементы: триада 3Д (дезинфекция + дезинсекция + дератизация) в H2, блок «безопасные препараты для детей и животных», блок «срочный выезд» с временем ответа, ценовая таблица или хотя бы диапазон цен, этапы работы (3–5 шагов), гарантийный срок (от 6 до 60 месяцев), CTA «оставить заявку / заказать обратный звонок», упоминание Роспотребнадзора и договора.</p>
+      <p class="rpt-tz-p"><strong class="rpt-tz-strong">Доминирующие паттерны в топе:</strong> B2B-сегмент присутствует у всех (кафе, рестораны, предприятия, складские помещения) рядом с B2C. Почти все эксплуатируют слово «СЭС» — оно входит во вторичные запросы и создаёт доверие. Несколько сайтов явно пишут о «законодательной обязанности» (ФЗ №52) и помощи при проверках Роспотребнадзора — это отдельный BOFU-кластер для бизнеса.</p>
+      <p class="rpt-tz-p"><strong class="rpt-tz-strong">Слабое место большинства конкурентов:</strong> почти никто не предоставляет конкретные данные с разбивкой по типу объекта и сроку действия. Нет сравнительных таблиц методов (горячий туман vs холодный туман vs гель). Нет чёткого «когда обработка НЕ поможет» и «когда нужна повторная обработка». Нет диагностического блока симптом → тип заражения → метод. Это пробел, в который можно войти.</p>
+    </section>
+
+    <section class="rpt-tz-section" aria-labelledby="rpt-tz-s4">
+      <h3 class="rpt-tz-h2" id="rpt-tz-s4">4. Анализ недостающих элементов</h3>
+      <p class="rpt-tz-gapmap-title">Сравнение сайта с конкурентами в поиске</p>
+      <div class="rpt-tz-gapmap">
+        <div class="rpt-tz-gapmap__block rpt-tz-gapmap__block--missing">
+          <div class="rpt-tz-gapmap__badge">Есть у конкурентов, но нет на сайте</div>
+          <ul class="rpt-tz-gapmap__list">
+            <li>«Санитарная обработка» отсутствует везде (Title, H1, H2, body)</li>
+            <li>Дезинфекция как услуга отсутствует в блоке услуг</li>
+            <li>Ценовая таблица / диапазон цен на главной странице</li>
+            <li>Гарантийный срок (конкуренты: от 6 до 60 мес.)</li>
+            <li>Этапы работы (3–5 шагов)</li>
+            <li>«Срочный выезд» с конкретным временем (2–4 часа)</li>
+            <li>B2B-блок (кафе, рестораны, управляющие компании)</li>
+            <li>Сертификаты / лицензии / договор / Роспотребнадзор</li>
+            <li>FAQ с раскрытыми ответами (сейчас только JS-аккордеон)</li>
+            <li>Геосигналы: адрес в Москве/МО (ОГРНИП из Тюмени)</li>
+          </ul>
+        </div>
+        <div class="rpt-tz-gapmap__block rpt-tz-gapmap__block--overused">
+          <div class="rpt-tz-gapmap__badge">Лишнее или повторяющееся — нужно сократить или объединить</div>
+          <ul class="rpt-tz-gapmap__list">
+            <li>«Обработка деревьев» — вне кластера санобработки, размывает интент</li>
+            <li>H2 «О нас» (2 абзаца без USP) → слить в блок с преимуществами</li>
+            <li>«Акарицидная обработка» как отдельный H3 — нишевый запрос, не BOFU</li>
+          </ul>
+        </div>
+        <div class="rpt-tz-gapmap__block rpt-tz-gapmap__block--untapped">
+          <div class="rpt-tz-gapmap__badge">Почти ни у кого нет — возможность выделиться</div>
+          <ul class="rpt-tz-gapmap__list">
+            <li>Диагностический блок: симптом → тип вредителя → метод</li>
+            <li>Сравнительная таблица методов: туман горячий / холодный / гель / приманки</li>
+            <li>«Когда обработка точно НЕ поможет» (friction gain)</li>
+            <li>Конкретные химические препараты по названиям (Имидалит, Альфасин, Синузан)</li>
+            <li>Реальная цена по типу объекта (1-к кв / 2-к кв / офис / кафе)</li>
+            <li>Seasonal intel: клопы весной vs осенью, грызуны в октябре-ноябре</li>
+            <li>Калькулятор стоимости по площади (leads через инструмент)</li>
+            <li>Разбор типовых ошибок при самостоятельной обработке</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="rpt-tz-section" aria-labelledby="rpt-tz-s5">
+      <h3 class="rpt-tz-h2" id="rpt-tz-s5">5. Быстрые победы</h3>
+
+      <article class="rpt-tz-fw rpt-tz-fw--p1">
+        <div class="rpt-tz-fw__head">
+          <span class="rpt-tz-fw__badge">P1</span>
+          <h4 class="rpt-tz-fw__title">Исправить Title, Description и H1 под основной запрос</h4>
+        </div>
+        <dl class="rpt-tz-fw__dl">
+          <dt>Где</dt>
+          <dd><code class="rpt-tz-inline-code">&lt;title&gt;</code>, <code class="rpt-tz-inline-code">&lt;meta description&gt;</code>, H1</dd>
+          <dt>Что сделать</dt>
+          <dd>Title → «РосАнтисепт — Санитарная обработка в Москве и МО: дезинсекция, дезинфекция, дератизация». Description → «Профессиональная санитарная обработка помещений в Москве. Уничтожение клопов, тараканов, грызунов, плесени. Препараты 4-го класса, безопасно для детей. Выезд от 2 часов». H1 → «Санитарная обработка помещений в Москве»</dd>
+          <dt>Почему работает</dt>
+          <dd>закрывает критический семантический разрыв — первичный запрос не покрыт нигде на странице</dd>
+          <dt>Почему это не типовое решение</dt>
+          <dd>это не «добавить ключевое слово» — это исправление несоответствия между продаваемым кластером и фактическим контентом</dd>
+          <dt>Effort / Impact</dt>
+          <dd>low (15 мин) / Impact: high / Тип эффекта: ranking relevance, CTR</dd>
+        </dl>
+      </article>
+
+      <article class="rpt-tz-fw rpt-tz-fw--p1">
+        <div class="rpt-tz-fw__head">
+          <span class="rpt-tz-fw__badge">P1</span>
+          <h4 class="rpt-tz-fw__title">Раскрыть ответы FAQ в серверном HTML</h4>
+        </div>
+        <dl class="rpt-tz-fw__dl">
+          <dt>Где</dt>
+          <dd>секция <code class="rpt-tz-inline-code">#faq</code>, все 6 <code class="rpt-tz-inline-code">&lt;div class="border border-gray-200"&gt;</code> accordion-items</dd>
+          <dt>Что сделать</dt>
+          <dd>добавить ответы прямо в HTML с начальным состоянием «открыто» для первого вопроса, остальные можно JS-свернуть — но текст должен быть в DOM при SSR. Пример ответа на «Как подготовиться к обработке»: «Уберите продукты в холодильник или шкаф, накройте аквариум, выведите людей и животных на 2–4 часа. Не мойте полы 3–5 дней после обработки — это снижает эффективность.»</dd>
+          <dt>Почему работает</dt>
+          <dd>6 вопросов без ответов = 0 контентной ценности для краулера. После добавления ответов — высокий потенциал на Featured Snippet по запросам «как подготовиться к дезинсекции», «насколько опасна обработка для детей»</dd>
+          <dt>Effort / Impact</dt>
+          <dd>medium (2–3 часа) / Impact: high / Тип эффекта: snippet eligibility, long-tail capture</dd>
+        </dl>
+      </article>
+
+      <article class="rpt-tz-fw rpt-tz-fw--p1">
+        <div class="rpt-tz-fw__head">
+          <span class="rpt-tz-fw__badge">P1</span>
+          <h4 class="rpt-tz-fw__title">Добавить дезинфекцию как услугу</h4>
+        </div>
+        <dl class="rpt-tz-fw__dl">
+          <dt>Где</dt>
+          <dd>секция <code class="rpt-tz-inline-code">#services</code>, 5-я карточка услуг</dd>
+          <dt>Что сделать</dt>
+          <dd>добавить карточку «Дезинфекция» (уничтожение плесени, грибка, бактерий, вирусов; обработка после затопления, смерти, инфекции; дезодорация). CTA «Заказать» → <code class="rpt-tz-inline-code">#contacts</code></dd>
+          <dt>Почему работает</dt>
+          <dd>без дезинфекции страница не покрывает полный кластер «санитарная обработка». Конкуренты без исключения предлагают все 3Д</dd>
+          <dt>Effort / Impact</dt>
+          <dd>low (30 мин) / Impact: high / Тип эффекта: relevance, semantic coverage</dd>
+        </dl>
+      </article>
+
+      <article class="rpt-tz-fw rpt-tz-fw--p1">
+        <div class="rpt-tz-fw__head">
+          <span class="rpt-tz-fw__badge">P1</span>
+          <h4 class="rpt-tz-fw__title">Исправить подпись Яндекс.Карт — «Тобольск»</h4>
+        </div>
+        <dl class="rpt-tz-fw__dl">
+          <dt>Где</dt>
+          <dd>секция <code class="rpt-tz-inline-code">#reviews</code>, <code class="rpt-tz-inline-code">&lt;a href="https://yandex.ru/maps/org/rosantisept/182172293396/"&gt;</code> с текстом «РосАнтисепт на карте Тобольска»</dd>
+          <dt>Что сделать</dt>
+          <dd>либо зарегистрировать организацию в Яндекс.Бизнес с московским адресом (критично для локального ранжирования), либо скрыть этот anchor-текст через CSS и заменить на нейтральный. Параллельно: виджет «Яндекс Карты» сигнализирует Тобольск = это убивает доверие при ручной модерации</dd>
+          <dt>Почему работает</dt>
+          <dd>geo trust signal для Яндекса — наличие Тобольска в anchor тексте прямо внутри страницы, ориентированной на Москву, — это конкретный сигнал несоответствия</dd>
+          <dt>Effort / Impact</dt>
+          <dd>low (10 мин для скрытия) / Impact: high / Тип эффекта: geo relevance, Яндекс доверие</dd>
+        </dl>
+      </article>
+
+      <article class="rpt-tz-fw rpt-tz-fw--p2">
+        <div class="rpt-tz-fw__head">
+          <span class="rpt-tz-fw__badge">P2</span>
+          <h4 class="rpt-tz-fw__title">Добавить ценовой блок прямо на главной странице</h4>
+        </div>
+        <dl class="rpt-tz-fw__dl">
+          <dt>Где</dt>
+          <dd>после секции <code class="rpt-tz-inline-code">#services</code>, перед <code class="rpt-tz-inline-code">#reviews</code></dd>
+          <dt>Что сделать</dt>
+          <dd>минимальная таблица 3 строки — «1-комнатная квартира от X ₽», «2–3-комнатная квартира от Y ₽», «Офис / коммерческое помещение от Z ₽». Exact цены взять из /prices</dd>
+          <dt>Почему работает</dt>
+          <dd>пользователь BOFU хочет цену без перехода на отдельную страницу; большинство конкурентов показывают цены прямо на главной</dd>
+          <dt>Effort / Impact</dt>
+          <dd>low (45 мин) / Impact: medium / Тип эффекта: conversion assist, dwell time</dd>
+        </dl>
+      </article>
+
+      <article class="rpt-tz-fw rpt-tz-fw--p2">
+        <div class="rpt-tz-fw__head">
+          <span class="rpt-tz-fw__badge">P2</span>
+          <h4 class="rpt-tz-fw__title">Вынести «срочный выезд» в первый экран</h4>
+        </div>
+        <dl class="rpt-tz-fw__dl">
+          <dt>Где</dt>
+          <dd>hero-секция <code class="rpt-tz-inline-code">#home</code>, под H1 или в строку с CTA-кнопкой</dd>
+          <dt>Что сделать</dt>
+          <dd>добавить строку «Выезд в течение 2–4 часов · Работаем без выходных» или аналогичную под кнопку «Заказать обработку»</dd>
+          <dt>Почему работает</dt>
+          <dd>«срочность» — один из ключевых покупательских триггеров в нише, все топ-конкуренты явно указывают время выезда на первом экране</dd>
+          <dt>Effort / Impact</dt>
+          <dd>low (20 мин) / Impact: medium / Тип эффекта: CTR (из SERP snippet), conversion assist</dd>
+        </dl>
+      </article>
+
+      <article class="rpt-tz-fw rpt-tz-fw--p2">
+        <div class="rpt-tz-fw__head">
+          <span class="rpt-tz-fw__badge">P2</span>
+          <h4 class="rpt-tz-fw__title">Добавить гарантийный срок в блок «О нас»</h4>
+        </div>
+        <dl class="rpt-tz-fw__dl">
+          <dt>Где</dt>
+          <dd>секция <code class="rpt-tz-inline-code">#about</code>, в первый абзац</dd>
+          <dt>Что сделать</dt>
+          <dd>явно указать гарантийный срок по видам работ. Пример: «На комплексную обработку предоставляем письменную гарантию 12 месяцев — при повторном появлении вредителей в течение этого срока выезд бесплатно»</dd>
+          <dt>Почему работает</dt>
+          <dd>гарантийный срок — обязательный элемент SERP-консенсуса, его отсутствие снижает конверсию и не покрывает семантику по запросу «гарантия на дезинсекцию»</dd>
+          <dt>Effort / Impact</dt>
+          <dd>low / Impact: medium / Тип эффекта: conversion assist, long-tail capture</dd>
+        </dl>
+      </article>
+
+      <article class="rpt-tz-fw rpt-tz-fw--p2">
+        <div class="rpt-tz-fw__head">
+          <span class="rpt-tz-fw__badge">P2</span>
+          <h4 class="rpt-tz-fw__title">Добавить этапы работы как H2-блок</h4>
+        </div>
+        <dl class="rpt-tz-fw__dl">
+          <dt>Где</dt>
+          <dd>между <code class="rpt-tz-inline-code">#services</code> и <code class="rpt-tz-inline-code">#reviews</code></dd>
+          <dt>Что сделать</dt>
+          <dd>4 шага с нумерацией: «1. Заявка и выезд осмотрщика → 2. Подбор препарата под объект → 3. Обработка (40–90 мин) → 4. Гарантийный акт»</dd>
+          <dt>Почему работает</dt>
+          <dd>process section — стандарт в нише, его отсутствие делает оффер непрозрачным. Покрывает запросы «как происходит обработка»</dd>
+          <dt>Effort / Impact</dt>
+          <dd>medium / Impact: medium / Тип эффекта: conversion assist, dwell time</dd>
+        </dl>
+      </article>
+    </section>
+
+    <section class="rpt-tz-section" aria-labelledby="rpt-tz-s6">
+      <h3 class="rpt-tz-h2" id="rpt-tz-s6">6. Структурные изменения</h3>
+      <h4 class="rpt-tz-h3">H2 удалить / заменить:</h4>
+      <div class="rpt-tz-table-wrap rpt-tz-table-wrap--lg">
+        <table class="rpt-tz-table rpt-tz-table--lg">
+          <thead>
+            <tr>
+              <th>Текущий H2</th>
+              <th>Действие</th>
+              <th>Замена</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>«Наши услуги»</td>
+              <td>Заменить</td>
+              <td>«Услуги санитарной обработки в Москве»</td>
+            </tr>
+            <tr>
+              <td>«О нас»</td>
+              <td>Заменить + расширить</td>
+              <td>«Почему выбирают РосАнтисепт: 6 лет в Москве»</td>
+            </tr>
+            <tr>
+              <td>«Что говорят о нас»</td>
+              <td>Оставить, но добавить агрегированную оценку</td>
+              <td>«Отзывы клиентов: 5.0 на Авито, 4.8 на Яндекс Картах»</td>
+            </tr>
+            <tr>
+              <td>«Оставить заявку»</td>
+              <td>Сдвинуть ниже, добавить H2 перед формой</td>
+              <td>«Вызвать санобработку — ответим за 15 минут»</td>
+            </tr>
+            <tr>
+              <td>«Часто задаваемые вопросы»</td>
+              <td>Оставить, но раскрыть ответы</td>
+              <td>«Вопросы о санитарной обработке»</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <h4 class="rpt-tz-h3">H2 добавить:</h4>
+      <ol class="rpt-tz-ol">
+        <li>«Методы санитарной обработки: что применяем и почему» (до блока услуг)</li>
+        <li>«Сколько стоит санобработка в Москве: цены по типу объекта» (новый блок)</li>
+        <li>«Когда мы приедем: этапы работы от заявки до акта» (новый блок)</li>
+        <li>«Обработка для организаций: договор и документы для Роспотребнадзора» (BOFU-блок B2B)</li>
+      </ol>
+      <h4 class="rpt-tz-flow-heading">Порядок секций</h4>
+      <div class="rpt-tz-flow" aria-label="Порядок секций (новый)">
+        <div class="rpt-tz-flow__card">Hero</div>
+        <div class="rpt-tz-flow__arrow" aria-hidden="true"><i class="fa-solid fa-arrow-down"></i></div>
+        <div class="rpt-tz-flow__card">Услуги (5 карточек включая дезинфекцию)</div>
+        <div class="rpt-tz-flow__arrow" aria-hidden="true"><i class="fa-solid fa-arrow-down"></i></div>
+        <div class="rpt-tz-flow__card">Методы/препараты</div>
+        <div class="rpt-tz-flow__arrow" aria-hidden="true"><i class="fa-solid fa-arrow-down"></i></div>
+        <div class="rpt-tz-flow__card">Этапы работы</div>
+        <div class="rpt-tz-flow__arrow" aria-hidden="true"><i class="fa-solid fa-arrow-down"></i></div>
+        <div class="rpt-tz-flow__card">Цены</div>
+        <div class="rpt-tz-flow__arrow" aria-hidden="true"><i class="fa-solid fa-arrow-down"></i></div>
+        <div class="rpt-tz-flow__card">Отзывы</div>
+        <div class="rpt-tz-flow__arrow" aria-hidden="true"><i class="fa-solid fa-arrow-down"></i></div>
+        <div class="rpt-tz-flow__card">FAQ (раскрытый)</div>
+        <div class="rpt-tz-flow__arrow" aria-hidden="true"><i class="fa-solid fa-arrow-down"></i></div>
+        <div class="rpt-tz-flow__card">О нас</div>
+        <div class="rpt-tz-flow__arrow" aria-hidden="true"><i class="fa-solid fa-arrow-down"></i></div>
+        <div class="rpt-tz-flow__card">Форма заявки</div>
+        <div class="rpt-tz-flow__arrow" aria-hidden="true"><i class="fa-solid fa-arrow-down"></i></div>
+        <div class="rpt-tz-flow__card">Footer</div>
+      </div>
+    </section>
+
+    <section class="rpt-tz-section" aria-labelledby="rpt-tz-s7">
+      <h3 class="rpt-tz-h2" id="rpt-tz-s7">7. Блоки и данные, которые нужно добавить</h3>
+      <ol class="rpt-tz-ol">
+        <li><strong class="rpt-tz-strong">Таблица методов обработки</strong> — горячий туман vs холодный туман vs гелевые приманки vs порошок: площадь применения, проникновение, запах, время ожидания. Источник: внутренний процесс / технические листы препаратов</li>
+        <li><strong class="rpt-tz-strong">Конкретные препараты по названиям</strong> — например, «применяем Имидалит (действующее вещество имидаклоприд), Дельтаформ, Синузан — все 4-го класса опасности, зарегистрированы в РФ». Источник: поставщики/внутренний процесс</li>
+        <li><strong class="rpt-tz-strong">Реальные цены по объектам</strong> — «1-к кв. 35–40 м² от 2 500 ₽, обработка от клопов; кафе 100 м² от 6 000 ₽ с договором и актом». Источник: CRM</li>
+        <li><strong class="rpt-tz-strong">Диагностический блок</strong> — «Нашли следы вредителей? Определите тип»: симптом (тёмные точки/укусы ночью/помёт/прогрызенная упаковка) → предполагаемый вредитель → нужная услуга → ссылка на заявку. Источник: internal process / типовые обращения</li>
+        <li><strong class="rpt-tz-strong">Сезонная специфика для Москвы</strong> — «Клопы активизируются в апреле–мае при прогреве квартир после зимы. Грызуны мигрируют внутрь зданий в Московской области в октябре–ноябре». Источник: паттерны заявок за год</li>
+        <li><strong class="rpt-tz-strong">FAQ из реальных возражений</strong> — «Зачем выходить из квартиры на 2 часа, если препараты безопасны?», «Почему соседи должны тоже обрабатываться при клопах?», «Что делать, если вредители появились снова через 2 недели?». Источник: диалоги с клиентами, отзывы</li>
+        <li><strong class="rpt-tz-strong">«Когда обработка точно не поможет»</strong> — например: при заражении из соседних квартир без одновременной обработки смежных помещений; при наличии скрытых нор внутри стен без вскрытия; при плесени на поверхности без устранения источника влаги. Источник: реальные кейсы</li>
+        <li><strong class="rpt-tz-strong">Разбор ошибок самостоятельной обработки</strong> — «Топ-5 ошибок: использование карандаша Машенька от клопов, обработка только видимых мест, игнорирование щелей за плинтусами». Источник: обращения «уже пробовали сами»</li>
+        <li><strong class="rpt-tz-strong">B2B-документация</strong> — явно написать, что выдаётся договор, санитарный паспорт объекта, акт выполненных работ — именно тех документов, которые нужны при проверке Роспотребнадзора. Источник: внутренний процесс, ФЗ №52</li>
+        <li><strong class="rpt-tz-strong">Конкретные данные из отзывов</strong> — в секции отзывов извлечь паттерны из 4 имеющихся: «все 4 клиента отметили прозрачность ценообразования — именно это мы гарантируем: цена озвучивается до выезда и не меняется». Это превращает отзывы в доказательство конкретного обещания. Источник: отзывы</li>
+      </ol>
+    </section>
+
+    <section class="rpt-tz-section rpt-tz-section--paste" aria-labelledby="rpt-tz-s8">
+      <h3 class="rpt-tz-h2" id="rpt-tz-s8">8. Готовые к копированию блоки</h3>
+
+      <h4 class="rpt-tz-h3">3 новых H2</h4>
+      <pre class="rpt-tz-pre">&lt;h2&gt;Санитарная обработка помещений в Москве: дезинсекция, дезинфекция, дератизация&lt;/h2&gt;
+
+&lt;h2&gt;Сколько стоит вызвать санобработку в Москве: цены по типу объекта&lt;/h2&gt;
+
+&lt;h2&gt;Не поможет одна обработка — в каких случаях нужен комплексный подход&lt;/h2&gt;</pre>
+
+      <h4 class="rpt-tz-h3">3 новых H3</h4>
+      <pre class="rpt-tz-pre">&lt;h3&gt;Горячий и холодный туман: в чём разница и когда применяем&lt;/h3&gt;
+
+&lt;h3&gt;Документы для Роспотребнадзора: что вы получаете после обработки&lt;/h3&gt;
+
+&lt;h3&gt;Гарантия 12 месяцев: что это значит на практике&lt;/h3&gt;</pre>
+
+      <h4 class="rpt-tz-h3">Ценовая таблица</h4>
+      <pre class="rpt-tz-pre rpt-tz-pre--html">&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Тип объекта&lt;/th&gt;
+      &lt;th&gt;Услуга&lt;/th&gt;
+      &lt;th&gt;Стоимость&lt;/th&gt;
+      &lt;th&gt;Гарантия&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Квартира 1-к (до 40 м²)&lt;/td&gt;
+      &lt;td&gt;Дезинсекция (клопы/тараканы)&lt;/td&gt;
+      &lt;td&gt;от 2 500 ₽&lt;/td&gt;
+      &lt;td&gt;12 месяцев&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Квартира 2–3-к (40–80 м²)&lt;/td&gt;
+      &lt;td&gt;Дезинсекция (клопы/тараканы)&lt;/td&gt;
+      &lt;td&gt;от 3 500 ₽&lt;/td&gt;
+      &lt;td&gt;12 месяцев&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Частный дом / дача&lt;/td&gt;
+      &lt;td&gt;Комплексная санобработка (3Д)&lt;/td&gt;
+      &lt;td&gt;от 6 000 ₽&lt;/td&gt;
+      &lt;td&gt;12 месяцев&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Офис / магазин (до 100 м²)&lt;/td&gt;
+      &lt;td&gt;Дезинсекция + договор + акт&lt;/td&gt;
+      &lt;td&gt;от 4 500 ₽&lt;/td&gt;
+      &lt;td&gt;12 месяцев&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Кафе / ресторан (до 150 м²)&lt;/td&gt;
+      &lt;td&gt;Комплексная санобработка + документы&lt;/td&gt;
+      &lt;td&gt;от 7 000 ₽&lt;/td&gt;
+      &lt;td&gt;12 месяцев&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Точная стоимость рассчитывается после осмотра — финальная цена не меняется и фиксируется в договоре до начала работ.&lt;/p&gt;</pre>
+      <p class="rpt-tz-caption">*(Проставьте реальные цены — это заглушка-структура)*</p>
+
+      <h4 class="rpt-tz-h3">Диагностический блок</h4>
+      <pre class="rpt-tz-pre rpt-tz-pre--html">&lt;section id="diagnostic"&gt;
+  &lt;h2&gt;Определите тип проблемы — получите точное решение&lt;/h2&gt;
+  &lt;p&gt;Не уверены, с кем имеете дело? Опишите симптом — подскажем услугу.&lt;/p&gt;
+  &lt;table&gt;
+    &lt;thead&gt;
+      &lt;tr&gt;
+        &lt;th&gt;Симптом&lt;/th&gt;
+        &lt;th&gt;Вероятный вредитель&lt;/th&gt;
+        &lt;th&gt;Нужная услуга&lt;/th&gt;
+      &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Укусы ночью, тёмные точки на швах матраса&lt;/td&gt;
+        &lt;td&gt;Клопы&lt;/td&gt;
+        &lt;td&gt;Дезинсекция (горячий туман + гелевые барьеры)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Усики в кухне, фекалии на полках&lt;/td&gt;
+        &lt;td&gt;Тараканы&lt;/td&gt;
+        &lt;td&gt;Дезинсекция (гель + холодный туман)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Помёт у плинтусов, прогрызенные упаковки&lt;/td&gt;
+        &lt;td&gt;Мыши или крысы&lt;/td&gt;
+        &lt;td&gt;Дератизация (приманки + механические ловушки)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Чёрные/зелёные пятна на стенах, запах сырости&lt;/td&gt;
+        &lt;td&gt;Плесень / грибок&lt;/td&gt;
+        &lt;td&gt;Дезинфекция (фунгицидная обработка поверхностей)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;Запах после смерти/затопления, биологическое загрязнение&lt;/td&gt;
+        &lt;td&gt;Бактериальное заражение&lt;/td&gt;
+        &lt;td&gt;Дезинфекция + дезодорация помещения&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+  &lt;p&gt;Если точно не знаете — позвоните, мы проведём бесплатный осмотр и дадим заключение до начала работ.&lt;/p&gt;
+&lt;/section&gt;</pre>
+
+      <h4 class="rpt-tz-h3">Objection FAQ block</h4>
+      <pre class="rpt-tz-pre rpt-tz-pre--html">&lt;section id="faq"&gt;
+  &lt;h2&gt;Вопросы о санитарной обработке&lt;/h2&gt;
+
+  &lt;details open&gt;
+    &lt;summary&gt;Почему появились клопы, если сосед снизу уже обработался?&lt;/summary&gt;
+    &lt;p&gt;Клопы перемещаются через микрощели между квартирами, электрокоммуникации и вентиляцию. Обработка одной квартиры без смежных снижает эффект на 60–70%: оставшаяся популяция из соседних помещений заселяется повторно через 3–6 недель. Мы рекомендуем коллективную заявку — для жильцов одного подъезда действует скидка 15%.&lt;/p&gt;
+  &lt;/details&gt;
+
+  &lt;details&gt;
+    &lt;summary&gt;Зачем уходить из квартиры на 2 часа, если препараты 4-го класса безопасности?&lt;/summary&gt;
+    &lt;p&gt;4-й класс опасности — это «малоопасное вещество» при правильном применении. Однако в момент распыления концентрация в воздухе временно превышает норму. Через 2 часа вентиляция снижает концентрацию до безопасного уровня. Это стандартное требование производителей препаратов, а не перестраховка.&lt;/p&gt;
+  &lt;/details&gt;
+
+  &lt;details&gt;
+    &lt;summary&gt;Обработали, но через 10 дней снова вижу насекомых — это провал?&lt;/summary&gt;
+    &lt;p&gt;Нет. Появление единичных особей через 7–14 дней после обработки — нормальная картина: из скрытых кладок яиц вылупились новые особи, которые контактируют с остаточным препаратом и погибают. Если к концу 3-й недели активность не снизилась — это повод для гарантийного выезда. Мы выезжаем бесплатно в рамках 12-месячной гарантии.&lt;/p&gt;
+  &lt;/details&gt;
+
+  &lt;details&gt;
+    &lt;summary&gt;Нужно ли обрабатывать всю квартиру или только заражённую комнату?&lt;/summary&gt;
+    &lt;p&gt;Только заражённую — нецелесообразно. Вредители концентрируются в местах активности, но гнёзда часто находятся в смежных зонах (плинтусы, розетки, мебель в других комнатах). Частичная обработка снижает эффективность и увеличивает риск повторного заражения. Полная обработка квартиры при тех же затратах препарата обходится лишь на 20–30% дороже.&lt;/p&gt;
+  &lt;/details&gt;
+
+  &lt;details&gt;
+    &lt;summary&gt;Дадите договор и акт? Нужно для проверки Роспотребнадзора&lt;/summary&gt;
+    &lt;p&gt;Да. Юридическим лицам и ИП выдаём полный пакет: договор на оказание санитарных услуг, акт выполненных работ, сертификаты применяемых препаратов. Документы соответствуют требованиям СанПиН и принимаются при проверках Роспотребнадзора. Оформление занимает 1 рабочий день после завершения обработки.&lt;/p&gt;
+  &lt;/details&gt;
+&lt;/section&gt;</pre>
+    </section>
+
+    <p class="rpt-tz-summary-final"><strong>Итог.</strong> Страница функционально рабочая, технически грамотная (Next.js, структура), но семантически пустая и географически дискредитированная (Тобольск). P1-исправления — Title/H1/meta, раскрытие FAQ, добавление дезинфекции, исправление Яндекс-Карт — могут быть реализованы за один рабочий день и закрывают критические разрывы без пересборки страницы.</p>
+  </div>
+</div>
   
 
   <footer class="report-footer">
